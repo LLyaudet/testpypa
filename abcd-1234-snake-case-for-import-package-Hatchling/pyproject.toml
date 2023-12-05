@@ -1,0 +1,29 @@
+# pyproject.toml
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "abcd-1234-snake-case-for-import-package-Hatchling"
+version = "1.0.0"
+description = "This is a test"
+readme = "README.md"
+authors = [
+    { name = "Laurent Lyaudet", email = "laurent.lyaudet@gmail.com" },
+]
+license = { file = "COPYING.LESSER" }
+classifiers = [
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["test", "PyPA"]
+dependencies = [
+]
+requires-python = ">=3.0"
+
+[project.optional-dependencies]
+dev = ["black"]
+
