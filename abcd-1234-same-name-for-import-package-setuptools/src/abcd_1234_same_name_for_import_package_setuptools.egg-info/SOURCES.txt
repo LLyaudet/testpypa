@@ -1,0 +1,11 @@
+COPYING
+COPYING.LESSER
+README.md
+pyproject.toml
+src/abcd-1234-same-name-for-import-package-setuptools/__init__.py
+src/abcd-1234-same-name-for-import-package-setuptools/example.py
+src/abcd_1234_same_name_for_import_package_setuptools.egg-info/PKG-INFO
+src/abcd_1234_same_name_for_import_package_setuptools.egg-info/SOURCES.txt
+src/abcd_1234_same_name_for_import_package_setuptools.egg-info/dependency_links.txt
+src/abcd_1234_same_name_for_import_package_setuptools.egg-info/requires.txt
+src/abcd_1234_same_name_for_import_package_setuptools.egg-info/top_level.txt

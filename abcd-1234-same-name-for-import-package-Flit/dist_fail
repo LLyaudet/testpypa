@@ -1,0 +1,21 @@
+laurent@laurent-GL73-8SD:~/Données/MesProjetsGit/testpypa/abcd-1234-same-name-for-import-package-Flit$ python3 -m build
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (flit_core>=3.4)
+* Getting build dependencies for sdist...
+Traceback (most recent call last):
+  File "/mnt/0e97ab55-5a13-41db-b8bf-bbbe664691f1/home/laurent/ReposGit/lib/python3.11/site-packages/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+    main()
+  File "/mnt/0e97ab55-5a13-41db-b8bf-bbbe664691f1/home/laurent/ReposGit/lib/python3.11/site-packages/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+    json_out['return_val'] = hook(**hook_input['kwargs'])
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/0e97ab55-5a13-41db-b8bf-bbbe664691f1/home/laurent/ReposGit/lib/python3.11/site-packages/pyproject_hooks/_in_process/_in_process.py", line 287, in get_requires_for_build_sdist
+    return hook(config_settings)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/build-env-qd7x4_5o/lib/python3.11/site-packages/flit_core/buildapi.py", line 31, in get_requires_for_build_wheel
+    module = Module(info.module, Path.cwd())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/build-env-qd7x4_5o/lib/python3.11/site-packages/flit_core/common.py", line 59, in __init__
+    raise ValueError("No file/folder found for module {}".format(name))
+ValueError: No file/folder found for module abcd_1234_same_name_for_import_package_Flit
+
+ERROR Backend subprocess exited when trying to invoke get_requires_for_build_sdist
